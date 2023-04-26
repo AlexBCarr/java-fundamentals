@@ -19,4 +19,32 @@ public class Library {
         restaurant.addReview(review2);
         System.out.println(restaurant.toString());
     }
+    public static void mainTwo(String[] args) {
+        Shop shop = new Shop("Sports 4 Dayz", "All your sporting good needs", "$");
+        System.out.println(shop.toString());
+
+        Review review1 = new Review("Great prices!", "Dame", 5);
+        System.out.println(review1.toString());
+
+        Review review2 = new Review("My son loved the batting cages.", "Mary", 5);
+        System.out.println(review2.toString());
+
+        shop.addReview(review1);
+        shop.addReview(review2);
+        System.out.println(shop.toString());
+    }
+    public static void mainThree(String[] args) {
+        Theater theater = new Theater("All You Can See", "movies", "$");
+        System.out.println(theater.toString());
+
+        Review review1 = new Review("They have reclining seats!", "Lucy", 5);
+        System.out.println(review1.toString());
+
+        Review review2 = new Review("Popcorn was cold.", "Amber", 2.5);
+        System.out.println(review2.toString());
+
+        theater.addReview(review1);
+        theater.addReview(review2);
+        System.out.println(theater.toString());
+    }
 }
