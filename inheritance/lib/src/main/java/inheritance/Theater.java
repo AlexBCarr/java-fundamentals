@@ -2,13 +2,13 @@ package inheritance;
 
 import java.util.ArrayList;
 
-public class Shop {
+public class Theater {
     private String name;
     private String movies;
     private ArrayList<Review> reviews; // List of review objects per store
 
     //Constructor Restaurant
-    public Shop(String name, String description, String priceCategory) {
+    public Theater(String name, String movies) {
         this.name = name;
         this.movies = movies;
         this.reviews = new ArrayList<>(); // Init list
