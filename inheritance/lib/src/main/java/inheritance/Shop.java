@@ -8,7 +8,7 @@ public class Shop {
     private String priceCategory;
     private ArrayList<Review> reviews; // List of review objects per store
 
-    //Constructor Restaurant
+    //Constructor For Shop
     public Shop(String name, String description, String priceCategory) {
         this.name = name;
         this.description = description;

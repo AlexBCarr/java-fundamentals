@@ -7,12 +7,21 @@ public class Theater {
     private String movies;
     private ArrayList<Review> reviews; // List of review objects per store
 
-    //Constructor Restaurant
+    //Constructor For Theater
     public Theater(String name, String movies) {
         this.name = name;
         this.movies = movies;
         this.reviews = new ArrayList<>(); // Init list
     }
+
+    public String getMovies() {
+        return movies;
+    }
+
+    public void setMovies(String movies) {
+        this.movies = movies;
+    }
+
     //review list getter
     public void addReview(Review review) {
         reviews.add(review);
